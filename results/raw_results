@@ -1,0 +1,73 @@
+
+#
+# Results on Friday March 06 2020 10:33:51 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 1
+#
+[false,1,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583490815472],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583490828513],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:36:06 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 2
+#
+[false,2,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583490958336],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583490962930],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:37:47 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 3
+#
+[false,3,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583491064006],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583491064017],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:38:33 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 4
+#
+[false,4,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583491107101],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583491110831],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:41:24 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 5
+#
+[false,5,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583491278688],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583491281078],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:44:30 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 6
+#
+[false,6,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583491464644],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583491467657],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:46:11 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 7
+#
+[false,7,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583491563367],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583491567985],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:46:35 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 8
+#
+[false,8,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583491589285],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583491592622],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 10:55:27 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 9
+#
+[false,9,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583492122399],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583492123937],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 13:06:44 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 10
+#
+[false,10,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583499998673],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583500002200],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 13:08:17 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 11
+#
+[false,11,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_PreloadFailed_"],[8,"1fishSquareTank.png"],[9,1583500075131],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_PreloadFailed_"],[8,"2fishRoundTank.png"],[9,1583500075131],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583500075132],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583500095356],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]
+#
+# Results on Friday March 06 2020 13:12:39 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 12
+#
+[false,12,["Controller name","Item number","Element number","Type","Group","PennElementType","PennElementName","Parameter","Value","EventTime","Comments"],[[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"Start"],[9,1583500356510],[10,"NULL"]],[[0,"PennController"],[1,0],[2,0],[3,"unlabeled"],[4,"NULL"],[5,"PennController"],[6,0],[7,"_Trial_"],[8,"End"],[9,1583500357202],[10,"NULL"]]],"Q26nXmXMuPqx4Erbo/Ri7A",true]

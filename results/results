@@ -1,0 +1,254 @@
+#
+# Results on Friday March 06 2020 10:33:51 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583490832,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583490815472,NULL
+1583490832,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583490828513,NULL
+#
+# Results on Friday March 06 2020 10:36:06 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 2
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583490966,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583490958336,NULL
+1583490966,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583490962930,NULL
+#
+# Results on Friday March 06 2020 10:37:47 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 3
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583491067,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583491064006,NULL
+1583491067,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583491064017,NULL
+#
+# Results on Friday March 06 2020 10:38:33 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 4
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583491114,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583491107101,NULL
+1583491114,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583491110831,NULL
+#
+# Results on Friday March 06 2020 10:41:24 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 5
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583491284,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583491278688,NULL
+1583491284,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583491281078,NULL
+#
+# Results on Friday March 06 2020 10:44:30 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 6
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583491471,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583491464644,NULL
+1583491471,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583491467657,NULL
+#
+# Results on Friday March 06 2020 10:46:11 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 7
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583491571,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583491563367,NULL
+1583491571,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583491567985,NULL
+#
+# Results on Friday March 06 2020 10:46:35 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 8
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583491596,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583491589285,NULL
+1583491596,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583491592622,NULL
+#
+# Results on Friday March 06 2020 10:55:27 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 9
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583492127,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583492122399,NULL
+1583492127,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583492123937,NULL
+#
+# Results on Friday March 06 2020 13:06:44 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 10
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583500004,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583499998673,NULL
+1583500004,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583500002200,NULL
+#
+# Results on Friday March 06 2020 13:08:17 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 11
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583500097,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_PreloadFailed_,1fishSquareTank.png,1583500075131,NULL
+1583500097,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_PreloadFailed_,2fishRoundTank.png,1583500075131,NULL
+1583500097,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583500075132,NULL
+1583500097,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583500095356,NULL
+#
+# Results on Friday March 06 2020 13:12:39 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+# Design number was non-random = 12
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583500359,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583500356510,NULL
+1583500359,b39f905eb6ec91a663cfd582654e8ebf,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583500357202,NULL
