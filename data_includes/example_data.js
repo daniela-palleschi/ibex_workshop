@@ -21,7 +21,7 @@ PennController(
 
 PennController(
     
-    newText("sentence1", "William Shakespeare has three children.")// a new text element named 'sentence' 
+    newText("sentence1", "Colourless green ideas sleep furiously.")// a new text element named 'sentence' 
         .print() // we need this line to print the element
     , // we ALWAYS!!! need a comma between elements
     newText("question", "<br>Is this sentence coherent?")
@@ -41,7 +41,7 @@ PennController(
 
 PennController(
     
-    newText("sentence2", "Angela Merkel has blue eyes.")// a new text element named 'sentence' 
+    newText("sentence2", "Odourless beige opinions slumber angrily.")// a new text element named 'sentence' 
         .print() // we need this line to print the element
     , // we ALWAYS!!! need a comma between elements
     newText("question", "<br>Is this sentence coherent?")
