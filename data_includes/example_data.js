@@ -1,83 +1,27 @@
-// we'll always need this line at the beginning
 PennController.ResetPrefix(null);
-
-// Start your script
-PennController(
-    
-    newText("Welcome", "Welcome to the experiment!")
-        .print() 
-    , 
-    newText("press", "Please press <i>Continue</i> to begin.")
-        .print()
-    .settings.italic()
-    ,
-        newButton("welcome", "Continue")
-        .print()
-    .settings.bold()
-    .wait()
-    
-    
-   );
+PennController.AddHost("https://amor.cms.hu-berlin.de/~pallesid/workshop_2/");
 
 PennController(
-    
-    newText("sentence1", "Colourless green ideas sleep furiously.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
+    newText("test sentence", "The fish swim in a tank which is <i>perfectly round</i>.")  // italics
+    .settings.center()    // centred
+    .print()
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
+    newImage("competitor", "1fishSquareTank.png")// An image with 1 fish that swims in a square tank
+    .settings.size(200,200)    
+    .print()       
     ,
-    newKey("response1", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-
-    
-   );
-
-PennController(
-    
-    newText("sentence2", "Odourless beige concepts slumber angrily.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
+    newImage("target", "2fishRoundTank.png")// An image with 2 fish that swim in a round tank
+    .settings.size(200,200)    
+    .print()        
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
+    newCanvas("tanks", 500, 200)
+    .settings.add(   50, 0, getImage("competitor") ) // moved 50px from the left limit
+    .settings.add( 270, 0, getImage("target") )  // 20px from the right limit of 'competitor' ('competitor' right edge = (50px from the left) + (200px wide) =  250px)
+    .settings.add(  120, 200, newText("one fish") )  // TASK: add text below the images
+    .settings.add(   355, 200, newText("two fish") ) // TASK: add text below the images
+    .print()
     ,
-    newKey("response2", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-    
-   );
-
-
-
-/*   TASKS
-
-
-
-Tip: make sure to test the experiment after each change! This way, if it doesn't work you've only changed one thing and know where the problem is
-
-1. Add a welcome screen, that says 'Welcome to the experiment!'
-    - tell participants to click 'Continue' when they're ready to begin
-    - Use 'newButton' to add a button element labelled 'Continue', which waits until it is clicked before continuing to the next screen
-
-3. Add a second trial that is the same as the first, but with the sentence 'Odourless beige concepts slumber angrily'
-
-Run through the experiment twice, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-4. use '.settings.log()' to log the newKey selection to the results file
-
-Run through the experiment again two more times, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-
-
-*/
+    newSelector("tank") // We indicate that target+competitor belong to a selection group
+    .settings.add( getImage("target") , getImage("competitor") )
+    .wait()         // wait until target or competitor is selected 
+);
