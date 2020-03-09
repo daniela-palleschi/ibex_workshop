@@ -4,7 +4,7 @@ PennController.ResetPrefix(null);
 // Start your script
 PennController(
     
-    newText("sentence1", "William Shakespeare has three children.")// a new text element named 'sentence' 
+    newText("sentence1", "Colourless green ideas sleep furiously.")// a new text element named 'sentence' 
         .print() // we need this line to print the element
     , // we ALWAYS!!! need a comma between elements
     newText("question", "<br>Is this sentence coherent?")
@@ -32,7 +32,7 @@ Tip: make sure to test the experiment after each change! This way, if it doesn't
     - tell participants to click 'Continue' when they're ready to begin
     - Use 'newButton' to add a button element labelled 'Continue', which waits until it is clicked before continuing to the next screen
 
-3. Add a second trial that is the same as the first, but with the sentence 'Angela Merkel has blue eyes'
+3. Add a second trial that is the same as the first, but with the sentence 'Odourless beige opinions slumber angrily'
 
 4. use '.settings.log()' to log the newKey selection to the results file
 
