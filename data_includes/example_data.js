@@ -1,5 +1,5 @@
 PennController.ResetPrefix(null);
-PennController.AddHost("https://amor.cms.hu-berlin.de/home/session/workshop_2/");
+PennController.AddHost("https://amor.cms.hu-berlin.de/~pallesid/workshop_2/");
 
 PennController(
     newText("test sentence", "The fish swim in a tank which is <i>perfectly round</i>")  // italics
