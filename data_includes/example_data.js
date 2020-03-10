@@ -13,6 +13,13 @@ PennController(
     .print()
     .settings.bold()
     ,
+    newTextInput("inputID")
+    .settings.before(newText("id","<br><br>Before we begin, please enter your initials and hit 'Enter':")
+                     .settings.css("font-size", "20"))
+    .print()
+    .wait()
+    .remove()
+    ,
     newText("Instructions","<br>You will be presented with a sentence. When you have read the sentence, <b>press the spacebar</b>. <br>You will then see a scale from <b>'non-sensical'</b> to <b>'perfectly sensical'</b>. Please indicate where on the scale you feel the sentence belongs.<br>Then click on 'Continue' to move on.")
     .print()
     ,
@@ -81,27 +88,6 @@ PennController(
     ,
     newButton("continue", "Continue")
     .print()
-    .settings.center()
-    .wait()
-);
-
-// Good-bye
-PennController(
-    defaultText
-    .settings.css("font-size", "25")
-    ,
-    newText("bye", "Thank you for your participation!")
-    .settings.center()
-    .print()
-    .settings.bold()
-    ,
-    newText("close", "Close this window to end the experiment.")
-    .settings.css("font-size", "15")
-    .settings.center()
-    .print()
-    .settings.italic()
-    ,
-    newButton("continue","Continue")
     .settings.center()
     .wait()
 );
