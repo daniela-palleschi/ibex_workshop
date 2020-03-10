@@ -1,83 +1,108 @@
-// we'll always need this line at the beginning
-PennController.ResetPrefix(null);
+PennController.ResetPrefix(null); // Initiates PennController
 
-// Start your script
+// Start typing your code here
+
+// Welcome
 PennController(
-    
+    defaultText
+    .settings.css("font-size", "25")
+    ,
     newText("Welcome", "Welcome to the experiment!")
-        .print() 
-    , 
-    newText("press", "Please press <i>Continue</i> to begin.")
-        .print()
-    .settings.italic()
-    ,
-        newButton("welcome", "Continue")
-        .print()
+    .settings.css("font-size", "30")
+    .settings.center()
+    .print()
     .settings.bold()
+    ,
+    newText("Instructions","<br>You will be presented with a sentence. When you have read the sentence, <b>press the spacebar</b>. <br>You will then see a scale from <b>'non-sensical'</b> to <b>'perfectly sensical'</b>. Please indicate where on the scale you feel the sentence belongs.<br>Then click on 'Continue' to move on.")
+    .print()
+    ,
+    newText("continue","<br><br>Click 'Continue' to begin.")
+    .settings.css("font-size","15")
+    .settings.center()
+    .print()
+    ,
+    newButton("continue","Continue")
+    .settings.center()
+    .print()
     .wait()
-    
-    
-   );
+);
 
+// Trial 1
 PennController(
-    
-    newText("sentence1", "Colourless green ideas sleep furiously.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
+    defaultText
+    .settings.css("font-size", "30")
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
+    newText("sentence1", "Colourless <b>green</b> ideas sleep furiously.")
+    .settings.italic()
+    .print()
+    ,
+    newKey("ready", " ")
+    .wait()
+    ,
+    newScale("response", 7)
+    .settings.before(newText("bad","non-sensical")
+                     .settings.css("font-size","15"))
+    .settings.after(newText("good","perfectly sensical")
+                    .settings.css("font-size","15"))
+    .settings.labelsPosition("top")
+    .settings.center()
+    .print()
+    .wait()
+    .settings.log()
+    ,
+    newButton("continue", "Continue")
+    .print()
+    .settings.center()
+    .wait()
+);
+
+// Trial 2
+PennController(
+    defaultText
+    .settings.css("font-size", "30")
+    ,
+    newText("sentence2", "Odourless beige memories slumber angrily.")
+    .settings.italic()
+    .print()
+    ,
+    newKey("ready", " ")
+    .wait()
+    ,
+    newScale("response", 7)
+    .settings.before(newText("bad","non-sensical")
+                     .settings.css("font-size","15"))
+    .settings.after(newText("good","perfectly sensical")
+                    .settings.css("font-size","15"))
+    .settings.labelsPosition("top")
+    .settings.center()
+    .print()
+    .wait()
+    .settings.log()
+    ,
+    newButton("continue", "Continue")
+    .print()
+    .settings.center()
+    .wait()
+);
+
+// Good-bye
+PennController(
+    defaultText
+    .settings.css("font-size", "25")
+    ,
+    newText("bye", "Thank you for your participation!")
+    .settings.center()
+    .print()
     .settings.bold()
     ,
-    newKey("response1", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-
-    
-   );
-
-PennController(
-    
-    newText("sentence2", "Odourless beige concepts slumber angrily.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
+    newText("close", "Close this window to end the experiment.")
+    .settings.css("font-size", "15")
+    .settings.center()
+    .print()
     .settings.italic()
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
-    ,
-    newKey("response2", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-    
-   );
+    newButton("continue","Continue")
+    .settings.center()
+    .wait()
+);
 
-
-
-/*   TASKS
-
-
-
-Tip: make sure to test the experiment after each change! This way, if it doesn't work you've only changed one thing and know where the problem is
-
-1. Add a welcome screen, that says 'Welcome to the experiment!'
-    - tell participants to click 'Continue' when they're ready to begin
-    - Use 'newButton' to add a button element labelled 'Continue', which waits until it is clicked before continuing to the next screen
-
-3. Add a second trial that is the same as the first, but with the sentence 'Odourless beige concepts slumber angrily'
-
-Run through the experiment twice, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-4. use '.settings.log()' to log the newKey selection to the results file
-
-Run through the experiment again two more times, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-
-
-*/
