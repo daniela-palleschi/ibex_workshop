@@ -1,83 +1,111 @@
-// we'll always need this line at the beginning
-PennController.ResetPrefix(null);
+PennController.ResetPrefix(null); // Initiates PennController
+PennController.AddHost("https://amor.cms.hu-berlin.de/~pallesid/workshop_2/");
 
-// Start your script
-PennController(
+// Start typing your code here
+
+//=====================================================
+// Establish sequence, with randomised items
+//shuffle(randomize("real"), randomize("filler"))
+PennController.Sequence( "welcome" , randomize("experiment") , "send" , "final" )
     
-    newText("Welcome", "Welcome to the experiment!")
-        .print() 
-    , 
-    newText("press", "Please press <i>Continue</i> to begin.")
-        .print()
-    .settings.italic()
+    //=====================================================
+    // 1. Welcome page
+    
+    PennController( "welcome" ,
+    defaultText // command for 'default text elements...
+    .print() // ...so for every text element, we're saying to automatically print it; DP
     ,
-        newButton("welcome", "Continue")
-        .print()
-    .settings.bold()
-    .wait()
-    
-    
-   );
-
-PennController(
-    
-    newText("sentence1", "Colourless green ideas sleep furiously.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
+    newText("<p>Welcome to the experiment!</p>")
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
+    newText("<p>You will be presented with a picture which will disappear automatically. You will then see a sentence.</p><p>Your task is to indicate whether the sentence is <b>'true'</b>, <b>'false'</b>, or if you're <b>'unsure'</b> by clicking on the presented options.</p>") // strong = bold; DP
     ,
-    newKey("response1", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-
-    
-   );
-
-PennController(
-    
-    newText("sentence2", "Odourless beige concepts slumber angrily.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
+    newTextInput("ID") // collect participant ID using a 'text input field'
+    .settings.before(newText("Please enter your participant ID:  ")
+    .settings.italic())
+    .print() // BUT won't collect the value of their input
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
+    newText("<p>Click the button below to start the experiment.</p>")
     ,
-    newKey("response2", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-    
-   );
+    newButton("Start") // a button with the word 'start'; DP
+    .print()
+    .wait() // wait until button is clicked; DP
+    ,
+    newVar("ID") // this will create a new variable "ID"; MUST be after the 'Start' button click
+    .settings.global() // ensures value of "ID" is available later to be added to results file
+    .set( getTextInput("ID") ) // setting the value of "ID" to be the input from "ID above"
+    )
+    .log( "ID" , getVar("ID") // ensures that for each trial, logging value of ID in variable ID; this should be OUTSIDE of PennController()
+    );
+
+//=====================================================
+// 2. Trial events
+
+PennController.Template( PennController.GetTable("worldknowledge.csv"),// creates a template to be used for multiple trials; will use .csv in chunk_includes
+                         variable => PennController( "experiment",
+                                                     newTimer(500)  // 500ms timer (pause before beginning trial)
+                                                     .start()
+                                                     .wait() // important: make sure a timer is set BEFORE '.wait()', otherwise the experiment will freeze
+                                                     ,
+                                                     newImage("picture",variable.picture)
+                                                     .settings.size(400)
+                                                     .print()
+                                                     ,
+                                                     newTimer(1000)  // 500ms timer (pause before beginning trial)
+                                                     .start()
+                                                     .wait() // important: make sure a timer is set BEFORE '.wait()', otherwise the experiment will freeze
+                                                     ,
+                                                     getImage("picture")
+                                                     .remove()
+                                                     ,
+                                                     newText("sentence",variable.sentence)
+                                                     .settings.bold()
+                                                     .settings.center()
+                                                     .print() // will print the text in its entirety
+                                                     //.unfold(variable.Duration) // will unfold for the duration of the audio file (which is 2600ms)
+                                                     ,
+                                                     /*newKey("response", "FJ")
+                                                     .settings.log()
+                                                     .wait()
+                                                     ,*/
+                                                     newScale("judgement",   "true", "false", "unsure")
+                                                     .settings.labelsPosition("right")
+                                                     //.settings.slider()
+                                                     .settings.before( newText("<br><br>This sentence is..") )
+                                                     //.settings.size("auto")
+                                                     .print()
+                                                     .settings.log("last")
+                                                     .wait() 
+                                                     ,
+                                                     newTimer(500)  // 500ms timer (pause before ending trial)
+                                                     .start()
+                                                     .wait()
+                                                    )
+                         
+                         // Log ID after trial
+                         .log( "ID" , getVar("ID")) // ensures that for each trial, logging value of ID in variable ID; this should be OUTSIDE of PennController()
+                         .log( "Item" , variable.item)
+                         .log( "sentencematch" , variable.world)
+                         .log( "picmatch" , variable.pic)
+                         .log( "critical" , variable.criticalword)
+                         .log( "list" , variable.list)
+                        );
+
+//=====================================================
+// 3. Send results
+
+PennController.SendResults( "send" ); // important!!! Sends all results to the server
 
 
+//=====================================================
+// 4. Thank you screen
 
-/*   TASKS
-
-
-
-Tip: make sure to test the experiment after each change! This way, if it doesn't work you've only changed one thing and know where the problem is
-
-1. Add a welcome screen, that says 'Welcome to the experiment!'
-    - tell participants to click 'Continue' when they're ready to begin
-    - Use 'newButton' to add a button element labelled 'Continue', which waits until it is clicked before continuing to the next screen
-
-3. Add a second trial that is the same as the first, but with the sentence 'Odourless beige concepts slumber angrily'
-
-Run through the experiment twice, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-4. use '.settings.log()' to log the newKey selection to the results file
-
-Run through the experiment again two more times, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-
-
-*/
+PennController( "final" ,
+                newText("<p>Thank you for your participation!</p>")
+                .print()
+                ,
+                newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>") // confirmation link (e.g., for payment)
+                .print()
+                ,
+                newButton("void") // this creates a 'void' button that must be clicked to continue. This is because we don't want them to be able to continue beyond this screen
+                .wait() // so basically this is the end and there's no way to go any further
+               );
