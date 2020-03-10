@@ -34,6 +34,8 @@ PennController.Template(
         .print()
         .settings.center()
         .wait()
-    )
-)
-
+    )    
+    .log("Sentence",variable.sentence)
+    .log("Sensical",variable.sensical)
+    .log("Item", variable.item)
+);
