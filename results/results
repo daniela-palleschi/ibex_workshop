@@ -491,31 +491,3 @@
 1583857763,57391832a4303f34565ded8e91257380,PennController,3,0,trial,NULL,PennController,4,_Trial_,Start,1583857760015,Careless lean idealists weep furiously.,kinda,NULL
 1583857763,57391832a4303f34565ded8e91257380,PennController,3,0,trial,NULL,Scale,response,Choice,5,1583857762443,Careless lean idealists weep furiously.,kinda,
 1583857763,57391832a4303f34565ded8e91257380,PennController,3,0,trial,NULL,PennController,4,_Trial_,End,1583857762796,Careless lean idealists weep furiously.,kinda,NULL
-#
-# Results on Tuesday March 10 2020 16:43:38 UTC.
-# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
-# Design number was non-random = 8
-#
-# Columns below this comment are as follows:
-# 1. Time results were received.
-# 2. MD5 hash of participant's IP address.
-# 3. Controller name.
-# 4. Item number.
-# 5. Element number.
-# 6. Type.
-# 7. Group.
-# 8. PennElementType.
-# 9. PennElementName.
-# 10. Parameter.
-# 11. Value.
-# 12. EventTime.
-# 13. Comments.
-1583858618,57391832a4303f34565ded8e91257380,PennController,0,0,Item-1,NULL,PennController,0,_Trial_,Start,1583858611759,NULL
-1583858618,57391832a4303f34565ded8e91257380,PennController,0,0,Item-1,NULL,Scale,response,Choice,60,1583858613573,73
-1583858618,57391832a4303f34565ded8e91257380,PennController,0,0,Item-1,NULL,PennController,0,_Trial_,End,1583858614149,NULL
-1583858618,57391832a4303f34565ded8e91257380,PennController,1,0,Item-2,NULL,PennController,1,_Trial_,Start,1583858614152,NULL
-1583858618,57391832a4303f34565ded8e91257380,PennController,1,0,Item-2,NULL,Scale,response,Choice,27,1583858615988,56
-1583858618,57391832a4303f34565ded8e91257380,PennController,1,0,Item-2,NULL,PennController,1,_Trial_,End,1583858616439,NULL
-1583858618,57391832a4303f34565ded8e91257380,PennController,2,0,Item-3,NULL,PennController,2,_Trial_,Start,1583858616442,NULL
-1583858618,57391832a4303f34565ded8e91257380,PennController,2,0,Item-3,NULL,Scale,response,Choice,87,1583858617693,57
-1583858618,57391832a4303f34565ded8e91257380,PennController,2,0,Item-3,NULL,PennController,2,_Trial_,End,1583858618143,NULL
