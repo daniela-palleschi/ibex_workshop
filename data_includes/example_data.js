@@ -4,7 +4,7 @@ PennController.ResetPrefix(null);
 // Start your script
 PennController(
     
-    newText("Welcome", "Welcome to the experiment!")
+    newText("Welcome", "é ü ß öä!!")
         .print() 
     , 
     newText("press", "Please press <i>Continue</i> to begin.")
