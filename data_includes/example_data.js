@@ -1,16 +1,15 @@
 PennController.ResetPrefix(null);
-PennController.AddHost("https://amor.cms.hu-berlin.de/~pallesid/workshop_2/");
 
 PennController(
     newText("test sentence", "The fish swim in a tank which is <i>perfectly round</i>")  // italics
     .settings.center()    // centred
     .print()
     ,
-    newImage("competitor", "1fishSquareTank.png")// An image with 1 fish that swims in a square tank
+    newImage("competitor", "https://amor.cms.hu-berlin.de/~pallesid/workshop_2/1fishSquareTank.png")// An image with 1 fish that swims in a square tank
     .settings.size(200,200)    
     .print()       
     ,
-    newImage("target", "2fishRoundTank.png")// An image with 2 fish that swim in a round tank
+    newImage("target", "https://amor.cms.hu-berlin.de/~pallesid/workshop_2/2fishRoundTank.png")// An image with 2 fish that swim in a round tank
     .settings.size(200,200)    
     .print()        
     ,
