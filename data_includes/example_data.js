@@ -17,11 +17,9 @@ PennController(
     newCanvas("tanks", 500, 200)
     .settings.add(   50, 0, getImage("competitor") ) // moved 50px from the left limit
     .settings.add( 270, 0, getImage("target") )  // 20px from the right limit of 'competitor' ('competitor' right edge = (50px from the left) + (200px wide) =  250px)
-    .settings.add(  120, 200, newText("one fish") )  // TASK: add text below the images
-    .settings.add(   355, 200, newText("two fish") ) // TASK: add text below the images
     .print()
     ,
-    newSelector("tank") // We indicate that target+competitor belong to a selection group
-    .settings.add( getImage("target") , getImage("competitor") )
-    .wait()         // wait until target or competitor is selected 
+    newKey("response", "FJ")
+    .settings.log()
+    .wait()
 );
