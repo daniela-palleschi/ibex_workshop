@@ -1,0 +1,11 @@
+item,sentence,world,pic,criticalword,Group,picture
+1,Berlin is the capital city of France.,mismatch,match,France,1,berlin.jpg
+1,Berlin is the capital city of Germany.,match,mismatch,Germany,2,hawaii.jpeg
+2,Vladimir Putin is the president of Spain.,mismatch,mismatch,Spain,2,berlin.jpg
+2,Vladimir Putin is the president of Russia.,match,match,Russia,1,putin.jpeg
+3,The Colosseum is located in Tokyo.,mismatch,match,Tokyo,2,colosseum.jpg
+3,The Colosseum is located in Rome.,match,mismatch,Rome,2,putin.jpeg
+4,Hawaii is located in the Indian Ocean.,mismatch,mismatch,Indian Ocean,1,colosseum.jpg
+4,Hawaii is located in the Pacific Ocean.,match,match,Pacific Ocean,1,tory.jpg
+5,John Tory is the mayor of Montréal.,mismatch,match,Montréal,2,tory.jpg
+5,John Tory is the mayor of Toronto.,match,mismatch,Toronto,1,hawaii.jpeg
