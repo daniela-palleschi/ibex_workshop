@@ -45,35 +45,38 @@ PennController("welcome",
 PennController.Template(
     PennController.GetTable("template-text.csv"),  // load your csv
     variable => PennController("trial",
-    defaultText
-    .settings.css("font-size", "30")
-    ,
-    newText("sentence1", variable.sentence)  // and we change the quoted text to equal variable.column
-    .settings.italic()
-    .print()
-    ,
-    newKey("ready", " ")
-    .wait()
-    ,
-    newScale("response", 7)
-    .settings.before(newText("bad","non-sensical")
-                     .settings.css("font-size","15"))
-    .settings.after(newText("good","perfectly sensical")
-                    .settings.css("font-size","15"))
-    .settings.labelsPosition("top")
-    .settings.center()
-    .print()
-    .wait()
-    .settings.log()
-    ,
-    newButton("continue", "Continue")
-    .print()
-    .settings.center()
-    .wait()
-                              
-)
-     .log("Sentence",variable.sentence)
+                               defaultText
+                               .settings.css("font-size", "30")
+                               ,
+                               newTimer(500)
+                               .start()
+                               .wait()
+                               ,
+                               newText("sentence1", variable.sentence)  // and we change the quoted text to equal variable.column
+                               .settings.italic()
+                               .print()
+                               ,
+                               newKey("ready", " ")
+                               .wait()
+                               ,
+                               newScale("response", 7)
+                               .settings.before(newText("bad","non-sensical")
+                                                .settings.css("font-size","15"))
+                               .settings.after(newText("good","perfectly sensical")
+                                               .settings.css("font-size","15"))
+                               .settings.labelsPosition("top")
+                               .settings.center()
+                               .print()
+                               .wait()
+                               .settings.log()
+                               ,
+                               newButton("continue", "Continue")
+                               .print()
+                               .settings.center()
+                               .wait()
+                               
+                              )
+    .log("Sentence",variable.sentence)
     .log("Sensical",variable.sensical)
     .log("Item", variable.item)
     .log( "ID" , getVar("ID") )); // and here we ask that after Trial 1 the intials be logged
-
