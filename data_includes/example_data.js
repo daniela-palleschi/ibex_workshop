@@ -1,83 +1,74 @@
-// we'll always need this line at the beginning
-PennController.ResetPrefix(null);
+PennController.ResetPrefix(null); // Initiates PennController
 
-// Start your script
-PennController(
-    
-    newText("Welcome", "é ü ß öä!!")
-        .print() 
-    , 
-    newText("press", "Please press <i>Continue</i> to begin.")
-        .print()
-    .settings.italic()
+
+
+PennController("welcome",
+               defaultText
+               .settings.css("font-size", "25")
+               ,
+               newText("Welcome", "Welcome to the experiment!")
+               .settings.css("font-size", "30")
+               .settings.center()
+               .print()
+               .settings.bold()
+               ,
+               newTextInput("inputID")
+               .settings.before(newText("id","<br><br>Before we begin, please enter your initials and hit 'Enter':")
+                                .settings.css("font-size", "20"))
+               .print()
+               .wait()
+               .remove()
+               ,
+               newText("Instructions","<p>You will be presented with a sentence. <br>When you have read the sentence, <b>press the spacebar</b>. <br>You will then see a list of languages. Please indicate which language the sentence is written in.<br>Then click on 'Continue' to move on.</p>")
+               .print()
+               ,
+               newText("begin", "<br>Click  'Start' to begin the experiment.")
+               .settings.css("font-size", "20")
+               .settings.center()
+               .print()
+               ,
+               newButton("Start","Start")
+               .print()
+               .settings.center()
+               .wait()
+               ,
+               newVar("ID") // creates a variable 'ID'
+               .settings.global() // which is saved GLOBALLY, meaning we can access it even when we leave "welcome"
+               .set( getTextInput("inputID") )  // we set 'ID' to equal the TextInput from above, i.e., participant initials
+              )
+    .log( "ID" , getVar("ID") );
+
+// Trial 1
+PennController.Template(
+    PennController.GetTable("nonlatin-char.csv"),  // load your csv
+    variable => PennController("trial",
+    defaultText
+    .settings.css("font-size", "30")
     ,
-        newButton("welcome", "Continue")
-        .print()
-    .settings.bold()
+    newText("sentence1", variable.sentence)  // and we change the quoted text to equal variable.column
+    .settings.italic()
+    .print()
+    ,
+    newKey("ready", " ")
     .wait()
-    
-    
-   );
-
-PennController(
-    
-    newText("sentence1", "Colourless green ideas sleep furiously.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
     ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
+    newScale("response", "German", "Greek", "Korean")
+    .settings.before(newText("lang", "Which language is this?")
+                     .settings.css("font-size","15"))
+        .settings.labelsPosition("top")
+    .settings.center()
+    .print()
+    .wait()
+    .settings.log()
     ,
-    newKey("response1", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
+    newButton("continue", "Continue")
+    .print()
+    .settings.center()
+    .wait()
+                              
+)
+     .log("Sentence",variable.sentence)
+    .log("Sensical",variable.language)
+    .log("Item", variable.item)
+    .log( "ID" , getVar("ID") )); // and here we ask that after Trial 1 the intials be logged
 
-    
-   );
-
-PennController(
-    
-    newText("sentence2", "Odourless beige concepts slumber angrily.")// a new text element named 'sentence' 
-        .print() // we need this line to print the element
-    , // we ALWAYS!!! need a comma between elements
-    newText("question", "<br>Is this sentence coherent?")
-        .print()
-    .settings.italic()
-    ,
-        newText("instruction", "<br>Press 'F' for yes, 'J' for no")
-        .print()
-    .settings.bold()
-    ,
-    newKey("response2", "FJ") //  a new key element called 'response'; accepts responses as key press 'F' (coherent) or 'J' (incoherent)
-        .settings.log()
-        .wait() // wait for a key press before validation (important!)
-    
-   );
-
-
-
-/*   TASKS
-
-
-
-Tip: make sure to test the experiment after each change! This way, if it doesn't work you've only changed one thing and know where the problem is
-
-1. Add a welcome screen, that says 'Welcome to the experiment!'
-    - tell participants to click 'Continue' when they're ready to begin
-    - Use 'newButton' to add a button element labelled 'Continue', which waits until it is clicked before continuing to the next screen
-
-3. Add a second trial that is the same as the first, but with the sentence 'Odourless beige concepts slumber angrily'
-
-Run through the experiment twice, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-4. use '.settings.log()' to log the newKey selection to the results file
-
-Run through the experiment again two more times, and then look at the 'results' file (press 'Refresh' before opening it!).
-
-
-
-*/
