@@ -310,3 +310,111 @@
 1583753966,57391832a4303f34565ded8e91257380,PennController,2,0,unlabeled,NULL,PennController,2,_Trial_,Start,1583753965047,NULL
 1583753966,57391832a4303f34565ded8e91257380,PennController,2,0,unlabeled,NULL,Key,response2,Key,70,1583753966339,NULL
 1583753966,57391832a4303f34565ded8e91257380,PennController,2,0,unlabeled,NULL,PennController,2,_Trial_,End,1583753966340,NULL
+#
+# Results on Tuesday March 10 2020 13:45:53 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+# Design number was non-random = 15
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583847954,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583847951041,NULL
+1583847954,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583847953406,NULL
+#
+# Results on Tuesday March 10 2020 13:54:22 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+# Design number was non-random = 16
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583848462,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583848458770,NULL
+1583848462,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583848462217,NULL
+#
+# Results on Tuesday March 10 2020 13:55:00 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+# Design number was non-random = 17
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583848500,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583848497753,NULL
+1583848500,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,Key,response,Key,70,1583848499080,NULL
+1583848500,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583848500113,NULL
+#
+# Results on Tuesday March 10 2020 13:57:42 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+# Design number was non-random = 18
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583848663,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583848658088,NULL
+1583848663,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,Key,response,Key,70,1583848659633,NULL
+1583848663,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583848662410,NULL
+#
+# Results on Tuesday March 10 2020 13:59:14 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+# Design number was non-random = 19
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1583848755,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1583848750955,NULL
+1583848755,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,Key,response,Key,74,1583848751634,NULL
+1583848755,57391832a4303f34565ded8e91257380,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1583848754490,NULL
