@@ -1,10 +1,4 @@
-PennController.ResetPrefix(null); // Initiates PennController
-
-
-// Start typing your code here
-
-
-PennController(
+PennController("Trial1",
     defaultText
     .settings.css("font-size", "30")
     ,
@@ -13,7 +7,6 @@ PennController(
     .print()
     ,
     newKey("response", "FJ")
-    .settings.log()
     .wait()
     ,
     getText("sentence1")
@@ -22,7 +15,5 @@ PennController(
     newButton("continue", "Continue")
     .print()
     .settings.center()
-    ,
-    newKey("continue"," ")
     .wait()
 );
