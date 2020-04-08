@@ -1,3 +1,7 @@
+PennController.ResetPrefix(null); // Initiates PennController
+
+// Start typing your code here
+
 PennController("Trial1",
     defaultText
     .settings.css("font-size", "30")
