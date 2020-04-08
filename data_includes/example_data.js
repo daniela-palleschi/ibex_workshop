@@ -46,9 +46,7 @@ PennController(
     newKey("ready", " ")
     .wait()
     ,
-    newScale("response", 100)
-    .settings.size( 200 , "auto" )
-    .settings.slider()
+    newScale("response", 7)
     .settings.before(newText("bad","non-sensical")
                      .settings.css("font-size","15")
                     )
