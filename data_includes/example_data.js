@@ -19,7 +19,7 @@ PennController("welcome",
                .wait()
                .remove()
                ,
-               newText("Instructions","<p>You will be presented with a sentence. <br>When you have read the sentence, <b>press the spacebar</b>. <br>You will then see a list of languages. Please indicate which language the sentence is written in.<br>Then click on 'Continue' to move on.</p>")
+               newText("Instructions","<p>You will be presented with a sentence in one of three languages. <br>When you have read the sentence, <b>press the spacebar</b>. <br>You will then be asked whether you understand the sentence (i.e., whether you can read the language). <br>Then click on 'Continue' to move on.</p>")
                .print()
                ,
                newText("begin", "<br>Click  'Start' to begin the experiment.")
@@ -52,8 +52,8 @@ PennController.Template(
     newKey("ready", " ")
     .wait()
     ,
-    newScale("response", "German", "Greek", "Korean")
-    .settings.before(newText("lang", "Which language is this?")
+    newScale("response", "Yes", "No")
+    .settings.before(newText("lang", "Can you read this sentence?")
                      .settings.css("font-size","15"))
         .settings.labelsPosition("top")
     .settings.center()
@@ -71,4 +71,3 @@ PennController.Template(
     .log("Sensical",variable.language)
     .log("Item", variable.item)
     .log( "ID" , getVar("ID") )); // and here we ask that after Trial 1 the intials be logged
-
