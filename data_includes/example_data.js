@@ -87,7 +87,7 @@ PennController.Template( PennController.GetTable("worldknowledge.csv"),// create
                          .log( "sentencematch" , variable.world)
                          .log( "picmatch" , variable.pic)
                          .log( "critical" , variable.criticalword)
-                         .log( "list" , variable.list)
+                         .log( "list" , variable.Group)
                         );
 
 //=====================================================
